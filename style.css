@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1024px;
+  margin: 0 auto;
+  background: #F4F4F4;
+}
+
+header {
+  margin: 20px;
+}
+
+main {
+  display: flex;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+.info {
+  vertical-align: top;
+}
+
+.picture {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+}
+
+.summary-wrap {
+  display: inline-block;
+  vertical-align: top;
+  width: 675px;
+  margin-right: 5px;
+}
+
+.skills {
+  margin: 10px 0;
+}
+
+.skills ul {
+  padding-left: 20px;
+}
+
+.examples-wrap,
+.experience-wrap,
+.languages-wrap,
+.education-wrap {
+  display: block;
+  width: 1024px;
+  margin: 10px 5px 10px 20px;
+}
+
+.examples-wrap xmp {
+  background-color: #fff;
+  text-align: start;
+  margin: 10px 0;
+}
+
+.footer {
+  vertical-align: center;
+  margin: 20px 5px 10px 20px;
+  font-size: 12px;
+  height: 80px;  
+}
